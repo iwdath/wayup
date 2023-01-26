@@ -1,0 +1,242 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #201b2d;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h5 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.65em;
+}
+
+.align {
+  text-align: center;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background: rgba(77,189,254,1);
+  background: -moz-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+  background: linear-gradient(135deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfe', endColorstr='#3790d9', GradientType=1 );
+  padding-top: 62px;
+  padding-bottom: 145px;
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer {
+  width: 630px;
+}
+
+.title {
+  font-size: 37px;
+}
+
+.title span {
+  font-size: 59px;
+}
+
+.intro {
+  font-size: 16px;
+  margin-bottom: 45px;
+  margin-top: 30px;
+  width: 405px;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  background: #ffd429;
+  color: #2e2a1b;
+  display: block;
+  width: 222px;
+  padding: 20px 0;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background: #f4c509 ;
+}
+
+.suitcases {
+  margin-top: 60px;
+}
+
+.ahead {
+  padding-top: 108px;
+  padding-bottom: 120px;
+}
+
+.section-title {
+  font-size: 30px;
+}
+
+.ahead-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.aheads {
+  width: 289px;
+  background: url("../img/icon1.jpg") no-repeat top;
+  padding-top: 90px;
+}
+
+.aheads-title {
+  font-size: 19px;
+}
+
+.aheads-text {
+  margin-top: 10px;
+}
+
+.aheads-travels {
+  background: url("../img/icon2.jpg") no-repeat top;
+}
+
+.aheads-values {
+  width: 301px;
+  background: url("../img/icon3.jpg") no-repeat top;
+}
+
+.mail {
+  background: #ecf3f8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+input {
+  width: 343px;
+  border: 1px solid #bbbbbb;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  height: 48px;
+  padding-left: 15px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.btn-form {
+  border: 0;
+  cursor: pointer;
+  margin: 0 auto;
+  width: 343px;
+}
+
+.form {
+  margin-top: 55px;
+}
+
+.footer {
+  padding: 60px 0;
+  background: #164d7a;
+}
+
+.credits {
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+}
+
+
+/* Responsive */
+
+
+/* 1200px - 1400px */
+@media screen and (max-width: 1400px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .wrapper {
+    align-items: normal;
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 135px;
+  }
+  .offer {
+    width: 100%;
+  }
+  .intro {
+    width: 100%;
+  }
+  .intro br {
+    display: none;
+  }
+  .suitcases {
+    display: block;
+    width: 519px;
+    margin: 60px auto 0;
+  }
+  .ahead-list {
+    flex-direction: column;
+  }
+  .aheads {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+  .suitcases {
+    width: 100%;
+  }
+  input {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+}
