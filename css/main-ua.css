@@ -6,16 +6,20 @@
 /* Responsive */
 
 
-/* 992px - 1200px */
 @media screen and (max-width: 1200px) {
-  .title br {
+  .title .br1 {
     display: inline;
   }
 }
 
-/* 576px - 768px */
 @media screen and (max-width: 768px) {
-  .title br {
+  .title .br1 {
     display: none;
+  }
+}
+
+@media screen and (max-width: 529px) {
+  .title .br2, .title .br3 {
+    display: inline;
   }
 }
