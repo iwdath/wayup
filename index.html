@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <img src="img/logo.png" alt="WAYUP" class="logo">
+        <img src="img/logo.png" alt="WAYUP" class="logo" data-aos="fade-down" data-aos-duration="900">
         <div class="wrapper">
-          <div class="offer">
+          <div class="offer" data-aos="fade-right" data-aos-duration="900">
             <h1 class="title">
               С помощью верстки <br>я создам ту жизнь, о которой <span>мечтаю!</span>
             </h1>
@@ -22,17 +23,17 @@
             </p>
             <a href="#" class="btn align">Двигаться к мечте!</a>
           </div>
-          <img src="img/suitcases.png" alt="Suitcases" class="suitcases">
+          <img src="img/suitcases.png" alt="Suitcases" class="suitcases" data-aos="fade-left" data-aos-duration="900">
         </div>
       </div>
     </header>
     <section class="ahead">
       <div class="container">
-        <h2 class="section-title align">
+        <h2 class="section-title align" data-aos="fade-down" data-aos-duration="900">
           Что меня ждет впереди
         </h2>
         <div class="ahead-list">
-          <div class="aheads">
+          <div class="aheads" data-aos="fade-right" data-aos-duration="900">
             <h3 class="aheads-title align">
               Свободное время
             </h3>
@@ -40,7 +41,7 @@
               Мне нужно свободное время на семью и самое настоящее
             </p>
           </div>
-          <div class="aheads aheads-travels">
+          <div class="aheads aheads-travels" data-aos="zoom-in" data-aos-duration="900">
             <h3 class="aheads-title align">
               Яркие путешествия
             </h3>
@@ -48,7 +49,7 @@
               Работать откуда угодно - что может быть лучше?
             </p>
           </div>
-          <div class="aheads aheads-values">
+          <div class="aheads aheads-values" data-aos="fade-left" data-aos-duration="900">
             <h3 class="aheads-titl align">
               Создание ценности
             </h3>
@@ -61,24 +62,28 @@
     </section>
     <section class="mail">
       <div class="container">
-        <h2 class="section-title align">
+        <h2 class="section-title align" data-aos="fade-down" data-aos-duration="900">
           Форма заказа билета в будущее
         </h2>
         <form action="#" class="form">
-          <input type="text" name="name" placeholder="Имя" required>
-          <input type="email" name="email" placeholder="E-mail" required>
-          <input type="tel" name="phone" placeholder="Телефон" required>
-          <input type="text" name="text" placeholder="Куда я полечу в ближайшее время?" required>
-          <button type="submit" class="btn btn-form">Двигаться к мечте!</button>
+          <input type="text" name="name" placeholder="Имя" required data-aos="fade-right" data-aos-duration="900">
+          <input type="email" name="email" placeholder="E-mail" required data-aos="fade-left" data-aos-duration="900">
+          <input type="tel" name="phone" placeholder="Телефон" required data-aos="fade-right" data-aos-duration="900">
+          <input type="text" name="text" placeholder="Куда я полечу в ближайшее время?" required data-aos="fade-left" data-aos-duration="900">
+          <button type="submit" class="btn btn-form" data-aos="fade-right" data-aos-duration="900">Двигаться к мечте!</button>
         </form>
       </div>
     </section>
     <footer class="footer">
       <div class="container">
-        <p class="credits align">
+        <p class="credits align" data-aos="zoom-in" data-aos-duration="900" data-aos-anchor-placement="center-bottom">
           © Все мои мечты защищены моим трудолюбием
         </p>
       </div>
     </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
