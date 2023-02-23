@@ -1,0 +1,21 @@
+.title br {
+  display: none;
+}
+
+
+/* Responsive */
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+  .title br {
+    display: inline;
+  }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+  .title br {
+    display: none;
+  }
+}

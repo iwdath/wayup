@@ -42,6 +42,17 @@ p {
   padding-bottom: 145px;
   color: #fff;
 }
+.wrapper-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
 
 .wrapper {
   display: flex;
@@ -193,7 +204,7 @@ input {
     align-items: normal;
     flex-direction: column;
   }
-  .logo {
+  .wrapper-logo {
     margin-bottom: 80px;
   }
   .offer {
