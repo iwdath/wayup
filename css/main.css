@@ -189,17 +189,21 @@ input {
     width: 720px;
   }
   .wrapper {
+    text-align: center;
     align-items: normal;
     flex-direction: column;
   }
   .logo {
-    margin-bottom: 135px;
+    margin-bottom: 80px;
   }
   .offer {
     width: 100%;
   }
   .intro {
     width: 100%;
+  }
+  .btn {
+    margin: 0 auto;
   }
   .intro br {
     display: none;
@@ -222,6 +226,12 @@ input {
 @media screen and (max-width: 768px) {
   .container {
     width: 540px;
+  }
+  .title {
+    font-size: 27px;
+  }
+  .title span {
+    font-size: 44px;
   }
   .suitcases {
     width: 100%;
