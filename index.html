@@ -1,88 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <title>Верстка современного сайта</title>
-    <link rel="icon" href="img/logo-site-x64.png" type="image/png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/0cb9f419cb.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <div class="wrapper-logo">
-          <img src="img/logo.png" alt="WAYUP" class="logo">
-          <a href="https://iwdath.github.io/wayup/ua/" class="lang"><i class="fa-solid fa-earth-americas"></i> Укр</a>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Верстка современного сайта</title>
+  <link rel="icon" href="img/logo-site-x64.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0cb9f419cb.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="wrapper-logo">
+        <img src="img/logo.png" alt="WAYUP" class="logo">
+        <a href="https://iwdath.github.io/wayup/ua/" class="lang"><i class="fa-solid fa-earth-americas"></i> Укр</a>
+      </div>
+      <div class="wrapper">
+        <div class="offer">
+          <h1 class="title">
+            С помощью верстки <br>я создам ту жизнь, о которой <span>мечтаю!</span>
+          </h1>
+          <p class="intro">
+            Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это <br>на 100%. Меня не остановить!
+          </p>
+          <a href="#" class="btn align">Двигаться к мечте!</a>
         </div>
-        <div class="wrapper">
-          <div class="offer">
-            <h1 class="title">
-              С помощью верстки <br>я создам ту жизнь, о которой <span>мечтаю!</span>
-            </h1>
-            <p class="intro">
-              Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это <br>на 100%. Меня не остановить!
-            </p>
-            <a href="#" class="btn align">Двигаться к мечте!</a>
-          </div>
-          <img src="img/suitcases.png" alt="Suitcases" class="suitcases">
+        <img src="img/suitcases.png" alt="Suitcases" class="suitcases">
+      </div>
+    </div>
+  </header>
+  <section class="ahead">
+    <div class="container">
+      <h2 class="section-title align">
+        Что меня ждет впереди
+      </h2>
+      <div class="ahead-list">
+        <div class="aheads">
+          <h3 class="aheads-title align">
+            Свободное время
+          </h3>
+          <p class="aheads-text align">
+            Мне нужно свободное время на семью и самое настоящее
+          </p>
+        </div>
+        <div class="aheads aheads-travels">
+          <h3 class="aheads-title align">
+            Яркие путешествия
+          </h3>
+          <p class="aheads-text align">
+            Работать откуда угодно - что может быть лучше?
+          </p>
+        </div>
+        <div class="aheads aheads-values">
+          <h3 class="aheads-titl align">
+            Создание ценности
+          </h3>
+          <p class="aheads-text align">
+            Нет ничего сильнее, чем жить не просто так, создавая ценность
+          </p>
         </div>
       </div>
-    </header>
-    <section class="ahead">
-      <div class="container">
-        <h2 class="section-title align">
-          Что меня ждет впереди
-        </h2>
-        <div class="ahead-list">
-          <div class="aheads">
-            <h3 class="aheads-title align">
-              Свободное время
-            </h3>
-            <p class="aheads-text align">
-              Мне нужно свободное время на семью и самое настоящее
-            </p>
-          </div>
-          <div class="aheads aheads-travels">
-            <h3 class="aheads-title align">
-              Яркие путешествия
-            </h3>
-            <p class="aheads-text align">
-              Работать откуда угодно - что может быть лучше?
-            </p>
-          </div>
-          <div class="aheads aheads-values">
-            <h3 class="aheads-titl align">
-              Создание ценности
-            </h3>
-            <p class="aheads-text align">
-              Нет ничего сильнее, чем жить не просто так, создавая ценность
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="mail">
-      <div class="container">
-        <h2 class="section-title align">
-          Форма заказа билета в будущее
-        </h2>
-        <form action="#" class="form">
-          <input type="text" name="name" placeholder="Имя" required>
-          <input type="email" name="email" placeholder="E-mail" required>
-          <input type="tel" name="phone" placeholder="Телефон" required>
-          <input type="text" name="text" placeholder="Куда я полечу в ближайшее время?" required>
-          <button type="submit" class="btn btn-form">Двигаться к мечте!</button>
-        </form>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="container">
-        <p class="credits align">
-          © Все мои мечты защищены моим трудолюбием
-        </p>
-      </div>
-    </footer>
-  </body>
+    </div>
+  </section>
+  <section class="mail">
+    <div class="container">
+      <h2 class="section-title align">
+        Форма заказа билета в будущее
+      </h2>
+      <form action="#" class="form">
+        <input type="text" name="name" placeholder="Имя" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <input type="tel" name="phone" placeholder="Телефон" required>
+        <input type="text" name="text" placeholder="Куда я полечу в ближайшее время?" required>
+        <button type="submit" class="btn btn-form">Двигаться к мечте!</button>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <p class="credits align">
+        © Все мои мечты защищены моим трудолюбием
+      </p>
+    </div>
+  </footer>
+</body>
 </html>

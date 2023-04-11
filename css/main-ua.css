@@ -19,7 +19,8 @@
 }
 
 @media screen and (max-width: 529px) {
-  .title .br2, .title .br3 {
+  .title .br2,
+  .title .br3 {
     display: inline;
   }
 }
