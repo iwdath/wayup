@@ -1,9 +1,9 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  color: #201b2d;
-  font-size: 15px;
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #201b2d;
 }
 
 div,
@@ -15,6 +15,7 @@ span,
 a,
 ul,
 li {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -23,9 +24,9 @@ h2,
 h3,
 h4,
 h5,
-h5 {
+h6 {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 700;
 }
 
@@ -38,41 +39,48 @@ p {
 }
 
 .container {
-  width: 1170px;
   margin: 0 auto;
+  width: 1170px;
 }
 
 .header {
-  background: rgba(77, 189, 254, 1);
-  background: -moz-linear-gradient(-45deg, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77, 189, 254, 1)), color-stop(100%, rgba(55, 144, 217, 1)));
-  background: -webkit-linear-gradient(-45deg, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
-  background: -o-linear-gradient(-45deg, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
-  background: -ms-linear-gradient(-45deg, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
-  background: linear-gradient(135deg, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4dbdfe', endColorstr='#3790d9', GradientType=1);
   padding-top: 62px;
   padding-bottom: 145px;
   color: #fff;
+  background: rgb(77, 189, 254);
+  background: -o-linear-gradient(top, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(77, 189, 254, 1)), to(rgba(55, 144, 217, 1)));
+  background: linear-gradient(180deg, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4dbdfe", endColorstr="#3790d9", GradientType=1);
 }
 
 .wrapper-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .lang {
-  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  font-family: Montserrat, sans-serif;
   font-size: 16px;
   text-decoration: none;
   color: #fff;
-  padding: 10px;
 }
 
 .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .offer {
@@ -88,20 +96,22 @@ p {
 }
 
 .intro {
-  font-size: 16px;
-  margin-bottom: 45px;
   margin-top: 30px;
+  margin-bottom: 45px;
   width: 405px;
+  font-size: 16px;
 }
 
 .btn {
-  font-family: 'Montserrat', sans-serif;
-  background: #ffd429;
-  color: #2e2a1b;
   display: block;
-  width: 222px;
   padding: 20px 0;
+  width: 222px;
+  font-family: Montserrat, sans-serif;
   text-decoration: none;
+  color: #2e2a1b;
+  background: #ffd429;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
@@ -123,15 +133,19 @@ p {
 }
 
 .ahead-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-top: 70px;
 }
 
 .aheads {
-  width: 289px;
-  background: url("../img/icon1.jpg") no-repeat top;
   padding-top: 90px;
+  width: 289px;
+  background: url(../img/icon1.jpg) no-repeat top;
 }
 
 .aheads-title {
@@ -143,37 +157,37 @@ p {
 }
 
 .aheads-travels {
-  background: url("../img/icon2.jpg") no-repeat top;
+  background: url(../img/icon2.jpg) no-repeat top;
 }
 
 .aheads-values {
   width: 301px;
-  background: url("../img/icon3.jpg") no-repeat top;
+  background: url(../img/icon3.jpg) no-repeat top;
 }
 
 .mail {
-  background: #ecf3f8;
   padding-top: 100px;
   padding-bottom: 100px;
+  background: #ecf3f8;
 }
 
 input {
-  width: 343px;
-  border: 1px solid #bbbbbb;
-  font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
-  height: 48px;
-  padding-left: 15px;
   display: block;
   margin: 0 auto;
   margin-bottom: 15px;
+  border: 1px solid #bbb;
+  padding-left: 15px;
+  width: 343px;
+  height: 48px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
 }
 
 .btn-form {
-  border: 0;
-  cursor: pointer;
   margin: 0 auto;
+  border: 0;
   width: 343px;
+  cursor: pointer;
 }
 
 .form {
@@ -186,9 +200,9 @@ input {
 }
 
 .credits {
-  color: #fff;
-  font-size: 14px;
   margin: 0;
+  font-size: 14px;
+  color: #fff;
 }
 
 
@@ -216,9 +230,14 @@ input {
   }
 
   .wrapper {
-    text-align: center;
-    align-items: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: normal;
+    -ms-flex-align: normal;
+    align-items: normal;
+    text-align: center;
   }
 
   .wrapper-logo {
@@ -243,17 +262,20 @@ input {
 
   .suitcases {
     display: block;
-    width: 519px;
     margin: 60px auto 0;
+    width: 519px;
   }
 
   .ahead-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
   .aheads {
-    width: 100%;
     margin-bottom: 30px;
+    width: 100%;
   }
 }
 
