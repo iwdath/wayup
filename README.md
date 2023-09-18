@@ -1,1 +1,1 @@
-# wayup (first practice)
+# WayUp: My first web-practice.
