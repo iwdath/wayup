@@ -1,1 +1,1 @@
-# WayUp: My first web-practice.
+# WayUp: practice #1 [Responsive Web]
