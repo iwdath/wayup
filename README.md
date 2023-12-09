@@ -1,1 +1,0 @@
-# WayUp: practice #1 [Responsive Web]
